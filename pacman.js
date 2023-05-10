@@ -137,13 +137,13 @@ function movePacman(direction) {
 				speedUp = 6;
 			}
 			
-			if ( PACMAN_DIRECTION === 1 ) { 
+			if ( PACMAN_DIRECTION === 1 ) { //Moves right
 				PACMAN_POSITION_X += PACMAN_POSITION_STEP + speedUp;
-			} else if ( PACMAN_DIRECTION === 2 ) { 
+			} else if ( PACMAN_DIRECTION === 2 ) { //Moves down
 				PACMAN_POSITION_Y += PACMAN_POSITION_STEP + speedUp;
-			} else if ( PACMAN_DIRECTION === 3 ) { 
+			} else if ( PACMAN_DIRECTION === 3 ) { //Moves left
 				PACMAN_POSITION_X -= PACMAN_POSITION_STEP + speedUp;
-			} else if ( PACMAN_DIRECTION === 4 ) { 
+			} else if ( PACMAN_DIRECTION === 4 ) { //Moves up
 				PACMAN_POSITION_Y -= (PACMAN_POSITION_STEP + speedUp);
 			}
 			

@@ -158,6 +158,7 @@ intent('(I want|get me|add) a $(ITEM notebook|cellphone)', p => {
 
 intent('I want my walls to be $(COLOR green|blue|orange|yellow|white)', p => {
     p.play(`Mmm, ${p.COLOR.value}. Nice, love it!`);
+    //p.play('Mmm, ' + p.COLOR.value + '. Nice, love it!');
 });
 
 // Try: "I want my walls to be green" or "I want my walls to be orange".

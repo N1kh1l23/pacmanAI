@@ -150,8 +150,8 @@
 								
 								blinkSuperBubbles();
 								
-							} else if (e.keyCode >= 37 && e.keyCode <= 40 && !PAUSE && !PACMAN_DEAD && !LOCK) { 
-								if ( e.keyCode === 39 ) { 
+							} else if ((e.keyCode >= 37 && e.keyCode <= 40 || ) && !PAUSE && !PACMAN_DEAD && !LOCK) { 
+								if ( e.keyCode === 39) { 
 									movePacman(1);
 								} else if ( e.keyCode === 40 ) { 
 									movePacman(2);
